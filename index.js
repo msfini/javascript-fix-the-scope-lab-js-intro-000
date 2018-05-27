@@ -24,6 +24,8 @@ var theFunk = funkyFunction()
  
 function funkyFunction() {
    return "FUNKY!";
+   
+   return theFunk;
  }
 
 // We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
