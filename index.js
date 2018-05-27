@@ -19,7 +19,7 @@ function add2(n) {
   // Feel free to move things around!
 }
 
-var funkyFunction = function() {
+var theFunk = funkyFunction() {
   return function() {
     return "FUNKY!"
   }
