@@ -22,9 +22,9 @@ function add2(n) {
 
 var theFunk = "FUNKY!"
  
-function funkyFunction() {
-   
-   return theFunk;
+var funkyFunction = function () {
+  
+   return function() ;
  }
 
 // We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
